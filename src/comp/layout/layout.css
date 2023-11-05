@@ -1,0 +1,84 @@
+.header_section {
+  height: 11.5vh;
+
+  background-color: white;
+
+  border-radius: 5%;
+  width: 100%;
+}
+.siderbar_body {
+  display: flex;
+  height: 91vh;
+}
+.sidebar {
+  width: 16vw;
+  height: 85h;
+  margin-top: 12px;
+}
+.user_image {
+  height: 7vh;
+  margin-top: 0.5vh;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.dotSet {
+  margin-top: -1.5vh;
+  margin-left: -1vw;
+}
+.main_section {
+  width: 84vw;
+  height: 91.2vh;
+  background-color: #eaecee;
+  /* #f6f7f9; */
+}
+.header_tools {
+  margin-top: 1.5%;
+  margin-right: 2%;
+
+  display: flex;
+  height: 9vh;
+  align-items: center;
+  justify-content: flex-end;
+}
+.sub_heading {
+  display: flex;
+  height: 9vh;
+  font-weight:bold !important;
+  align-items: flex-end;
+}
+.fiber_manual{
+ color: #47B747; 
+ padding: 0px;
+ height: 2.2vh !important;
+ margin: 0px;
+ width: 0.1em !important;
+ background-color: white;
+ border-radius: 50%;
+}
+.svg{
+  width: 100%
+}
+line {
+  stroke: white;
+  /* stroke-width: 2; */
+}
+.active {
+  background-color: #47b747;
+  text-decoration: none !important;
+  text-align: center;
+
+  width: 100% !important;
+}
+
+.x-axis path {
+  stroke: white; 
+}
+
+.domain{
+  stroke: white; 
+}
+
+
+.text{
+  fill: #ced1d4 !important;
+}
