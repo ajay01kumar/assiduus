@@ -70,7 +70,7 @@ const Chart3 = () => {
   // will be called initially and on every data change
   useEffect(() => {
     const svg = select(svgRef.current);
-    const width = 500,
+    const width = 400,
       height = 130;
 
     // stacks / layers

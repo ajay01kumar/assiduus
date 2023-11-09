@@ -130,11 +130,6 @@ const Chart2 = () => {
                   >
                     <CloseIcon
                       onClick={() => handleClose()}
-                      style={{
-                        color: "red",
-                        border: "1px solid red",
-                        borderRadius: "50%",
-                      }}
                     />
                   </div>
                   <input type="file" id="file1" name="upload"></input>
